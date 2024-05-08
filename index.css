@@ -714,7 +714,6 @@ body{
 
     .about_us{
         padding-top: 8vh;
-        background-color: red;
     }
     .about_us_title{
         height: 7vh;
@@ -787,11 +786,11 @@ body{
     }
     
     .our_works{
-        padding-top: 6vh;
         height: auto;
         width: 97%;
         margin: 0;
         padding: 0 1.5%;
+        padding-top: 8vh;
     }
     .portfolio_title{
         margin-top: 2vh;
