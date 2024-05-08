@@ -706,7 +706,7 @@ body{
 
     .about_us{
         padding-top: 8vh;
-        background-color: red;
+        
     }
     .about_us_title{
         height: 7vh;
@@ -779,7 +779,7 @@ body{
     }
     
     .our_works{
-        background-color: red;
+        
         padding-top: 6vh;
         height: auto;
         width: 97%;
@@ -830,7 +830,7 @@ body{
         height: auto;
         width: 100%;
         padding-top: 6vh;
-        background-color: red;
+        
     }
     .team_title{
         margin-top: 2vh;
@@ -886,7 +886,7 @@ body{
     
     .contact_us{
         height: auto;
-        background-color: red;
+        
         padding-top: 6vh;
     }
     .contact_title{
@@ -917,7 +917,7 @@ body{
         padding: 2%;
         width: 85%;
         margin-bottom: 1vh;
-        font-size: 2.5vh;
+        font-size: 2vh;
         color: white;
         background-color: #135bc9;;
     }
