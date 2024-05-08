@@ -640,7 +640,6 @@ body{
         width: 100%;
         background-color: white;
         display: flex;
-        justify-content: space-evenly;
         flex-wrap: wrap;
     }
     .services_name {
@@ -652,7 +651,12 @@ body{
         transition: background-image 1s;
     }
     .service_title{
+        color: transparent;
         font-size: 1.25vh;
+    }
+    
+    .services_name:hover .service_title {
+        color: white;
     }
     .service_desc {
         height: 0vh;
@@ -662,17 +666,20 @@ body{
     
     .services_name:hover {
         background-image: none;
+        background-color: rgb(213, 189, 6);
+        color: white;
     }
     
     .services_name:hover .service_desc {
         display: unset;
         opacity: 0;
-        animation: service_hover 1s forwards ease-in;
+        animation: service_hover 0.25s forwards ease-in;
     }
+
     @keyframes service_hover {
         to{
             opacity: 1;
-            height: auto;
+            height: 10vh;
         }
     }
     .service1{
