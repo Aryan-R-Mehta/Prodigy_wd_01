@@ -644,6 +644,7 @@ body{
     }
     .services_name {
         width: 46.5%;
+        height: 22.5vh;
         padding: 0 1.5%;
         color: black;
         display: flex;
