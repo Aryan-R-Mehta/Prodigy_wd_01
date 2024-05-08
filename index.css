@@ -943,7 +943,7 @@ body{
         border: 1px white solid;
     }
     .footer{
-        height: 49vh;
+        height: 50vh;
         background-color: gray;
         display: flex;
         flex-direction: column;
@@ -1010,7 +1010,6 @@ body{
         height: 8vh;
         padding-top: 3vh;
         width: 100%;
-        background-color: rebeccapurple;
         font-size: 2vh; 
         display: flex;
     }
