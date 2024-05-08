@@ -105,6 +105,10 @@ function menu_popup()
     menu_popup.classList.toggle("popup_click");
 }
 
+function home(){
+    document.getElementById("home_page").scrollIntoView({behavior: "smooth", block: "start"});
+}
+
 function Home() 
 {
     document.getElementById("home_page").scrollIntoView({behavior: "smooth", block: "start"});
