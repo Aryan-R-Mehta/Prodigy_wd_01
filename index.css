@@ -845,13 +845,13 @@ body{
         height: 24vh;
         width: 90%;
         margin: 0 5%;
-        font-size: 2.5vh;
+        font-size: 2.25vh;
         padding-top: 1.5vh;
     }
     .team_photo{
         height: auto;
         padding: 7vh 0;
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -1002,7 +1002,6 @@ body{
         height: fit-content;
         display: flex;
         font-size: 2.3h;
-        background-color: red;
         flex-direction: row;
         justify-content: space-evenly;
     }
