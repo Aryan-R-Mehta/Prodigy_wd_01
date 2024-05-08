@@ -619,15 +619,16 @@ body{
     }
     .part1_title{
         width: 70%;
+        padding: 0% 15%;
         font-size: 4.5vh;
-        margin-bottom: 0vh;
+        margin-bottom: 0.3vh;
         font-weight: bolder;
         color: #135bc9;
         text-align: center;
     }
     .part1_desc{
         width: 85%;
-        font-size: 2.35vh;
+        font-size: 2.25vh;
         color: #135bc9;
         text-align: justify;
         padding: 0 7.5%;
@@ -901,7 +902,7 @@ body{
         height: 22vh;
         width: 90%;
         margin: 0 5%;
-        font-size: 2.5vh;
+        font-size: 2.25vh;
         padding-top: 1.5vh;
     }
     .contact_info{
@@ -1006,7 +1007,7 @@ body{
     }
     .contact_footer_1{
         height: 8vh;
-        padding-top: 1vh;
+        padding-top: 3vh;
         width: 100%;
         font-size: 2vh; 
         display: flex;
