@@ -105,6 +105,33 @@ function menu_popup()
     menu_popup.classList.toggle("popup_click");
 }
 
+function Home() 
+{
+    document.getElementById("home_page").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
+}
+function About(){
+    document.getElementById("about_us").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
+}
+function Works() {
+    document.getElementById("our_works").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
+}  
+function Teamp(){
+    document.getElementById("our_team").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
+}
+function Contact(){
+    document.getElementById("contact_us").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
+}
+
 function Home_popup() 
 {
     document.getElementById("home_page").scrollIntoView({behavior: "smooth", block: "start"});
