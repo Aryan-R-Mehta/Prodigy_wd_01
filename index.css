@@ -712,9 +712,8 @@ body{
         flex-direction: column;
     }
 
-
     .about_us{
-        padding-top: 12vh;
+        padding-top: 8vh;
         
     }
     .about_us_title{
@@ -788,8 +787,7 @@ body{
     }
     
     .our_works{
-        
-        padding-top: 6vh;
+        padding-top: 8vh;
         height: auto;
         width: 97%;
         margin: 0;
