@@ -105,19 +105,30 @@ function menu_popup()
     menu_popup.classList.toggle("popup_click");
 }
 
-function Home() 
+function Home_popup() 
 {
-    document.getElementById("home_page").scrollIntoView({behavior: "smooth"});
+    document.getElementById("home_page").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
 }
-function About(){
+function About_popup(){
     document.getElementById("about_us").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
 }
-function Works() {
-    document.getElementById("our_works").scrollIntoView({behavior: "smooth"});
+function Works_popup() {
+    document.getElementById("our_works").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
 }  
-function Team(){
-    document.getElementById("our_team").scrollIntoView({behavior: "smooth"});
+function Team_popup(){
+    document.getElementById("our_team").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
 }
-function Contact(){
-    document.getElementById("contact_us").scrollIntoView({behavior: "smooth"});
+function Contact_popup(){
+    document.getElementById("contact_us").scrollIntoView({behavior: "smooth", block: "start"});
+    var menu_popup = document.getElementById("popup");
+    menu_popup.classList.toggle("popup_click");
 }
+
