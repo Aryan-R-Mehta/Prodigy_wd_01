@@ -603,15 +603,15 @@ body{
         
     }
     .home_page{
-        padding-top: 10vh;
+        padding-top: 8vh;
         height: fit-content;
         width: 100%;
     }
     .part1
     {
-        height: 50vh;
+        height: 47vh;
         padding-top: 0vh;
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -630,7 +630,7 @@ body{
         font-size: 2.35vh;
         color: #135bc9;
         text-align: justify;
-        padding: 0 15%;
+        padding: 0 7.5%;
     }
 
     .part2
@@ -706,6 +706,7 @@ body{
 
     .about_us{
         padding-top: 8vh;
+        background-color: red;
     }
     .about_us_title{
         height: 7vh;
@@ -778,10 +779,12 @@ body{
     }
     
     .our_works{
+        background-color: red;
         padding-top: 6vh;
         height: auto;
-        width: 90%;
-        margin: 0 5%;
+        width: 97%;
+        margin: 0;
+        padding: 0 1.5%;
     }
     .portfolio_title{
         margin-top: 2vh;
@@ -827,6 +830,7 @@ body{
         height: auto;
         width: 100%;
         padding-top: 6vh;
+        background-color: red;
     }
     .team_title{
         margin-top: 2vh;
@@ -846,7 +850,7 @@ body{
     .team_photo{
         height: auto;
         padding: 7vh 0;
-        width: 100%;
+        width: 95%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -882,6 +886,7 @@ body{
     
     .contact_us{
         height: auto;
+        background-color: red;
         padding-top: 6vh;
     }
     .contact_title{
@@ -934,7 +939,7 @@ body{
         border: 1px white solid;
     }
     .footer{
-        height: 44vh;
+        height: 46vh;
         background-color: gray;
         display: flex;
         flex-direction: column;
@@ -985,14 +990,14 @@ body{
     .sec3_title{
         height: 3.5vh;
         width: fit-content;
-        font-size: 2.5vh;
+        font-size: 2.3vh;
         color: white;
         border-bottom: 2px white solid;
     }
     .footer_Sec3_main{
         height: fit-content;
         display: flex;
-        font-size: 2.5vh;
+        font-size: 2.3h;
         flex-direction: row;
         justify-content: space-evenly;
     }
