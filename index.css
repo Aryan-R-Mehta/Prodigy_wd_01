@@ -1,0 +1,1044 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.whyus_sec2_part1_tohide{
+        
+    display: none;
+    font-size: 3vh;
+    color: #135bc9;
+
+}
+.popup{
+    height: 25vh;
+    width: 30%;
+    right: 4%;
+    top: 7%;
+    background-color: gray;
+    padding: 1%;
+    position: fixed;
+    display: none;
+}
+.pop_me_op{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: 2vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+.me_op:hover{
+    color: chartreuse;
+}
+
+.NavBar{
+    height: 8vh;
+    width: 95%;
+    z-index: 1;
+    padding: 1vh 2.5%;
+    font-size: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    color: white;
+    background-color: #135bc9;
+}
+.navbar_scroll{
+    background-color: gray;
+    opacity: 0.9;
+    color: white;
+    backface-visibility: hidden;
+}
+
+.navbar_logo{
+    width: auto;
+    height: 5vh;
+    cursor: pointer;
+}
+.navbar_menu{
+    width: 70%;
+    font-size: 3vh;
+    display: flex;
+    justify-content: end;
+}
+.menu_op{
+    padding-left: 4%;
+}
+.menu_op:hover{
+    color: chartreuse;
+    opacity: 1;
+    cursor: pointer;
+}
+.menu_logo{
+    height: 6vh;
+    width: auto;
+    display: none;
+}
+.home_page{
+    height: 100vh;
+    width: 100%;
+}
+.part1
+{
+    height: 50vh;
+    padding-top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1_title{
+    width: 100%;
+    font-size: 7vh;
+    margin-bottom: 4vh;
+    font-weight: bolder;
+    color: #135bc9;
+    text-align: center;
+}
+.part1_desc{
+    width: 78%;
+    font-size: 4.5vh;
+    color: #135bc9;
+    text-align: justify;
+    padding: 0 15%;
+}
+
+.part2
+{
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 0vh;
+    display: flex;
+}
+.services_name {
+    width: 22%;
+    padding: 0 1.5%;
+    display: flex;
+    cursor: pointer;
+    transition: background-image 1s;
+}
+.service_title{
+    color: transparent;
+    font-size: 2.5vh;
+}
+.services_name:hover .service_title {
+    color: white;
+}
+
+.service_desc {
+    height: 0vh;
+    display: none;
+    font-size: 2.5vh;
+}
+
+.services_name:hover {
+    background-image: none;
+    background-color: rgb(213, 189, 6);
+    color: white;
+}
+
+.services_name:hover .service_desc {
+    display: unset;
+    opacity: 0;
+    animation: service_hover 0.25s ease forwards;
+}
+.part2:hover > :not(:hover)
+{
+    filter: grayscale(1);
+}
+
+@keyframes service_hover {
+    to{
+        opacity: 1;
+        height: 23vh;
+    }
+}
+.service1{
+    background-image: url('photos/photo1.png');
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.service2{
+    background-image: url('photos/photo2.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.service3{
+    background-image: url('photos/photo3.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.service4{
+    background-image: url('photos/photo4.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.about_us{
+    padding-top: 10vh;
+}
+.about_us_title{
+    height: 7vh;
+    font-size: 6vh;
+    text-align: center;
+}
+.about_us_desc{
+    width: 80%;
+    padding: 0 10%;
+    height: 28vh;
+    padding-top: 2vh;
+    font-size: 3.5vh;
+    text-align: center;
+}
+.about_us_whyus{
+    height: 53vh;
+    width: 80%;
+    padding: 0 7.5%;
+    display: flex;  
+    flex-direction: row-reverse;
+}
+.whyus_sec2{
+    width: 50%;
+    height: 52vh;
+}
+.whyus_sec2_part1{
+    height: 7vh;
+    width: fit-content;
+    font-size: 6vh;
+    border-bottom: 2px yellow solid;
+}
+.whyus_sec2_part2{
+    height: 45vh;
+    width: 80%;
+    padding: 0 10%;
+}
+.whyus_sec1{
+    width: 50%;
+    height: 52vh;
+}
+.whyus_achi{
+    height: 20.5%;
+    padding: 1% 0%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.whyus_sec1_part1{
+    width: 20%;
+    padding: 0 1%;
+    display: flex;
+    justify-content: center;
+}
+.whyus_sec1_part1 img{
+    padding: 10%;
+    background-color: yellow;
+}
+.whyus_sec1_part2{
+    width: 75%;
+}
+.whyus_sec1_part2 h3{
+    margin: 0;
+    font-size: 3.5vh;
+}
+.whyus_sec1_part2 p{
+    margin-top: 1vh;
+    font-size: 2.5vh;
+}
+
+.our_works{
+    height: 90vh;
+    width: 80%;
+    margin: 0 10%;
+    padding-top: 10vh;
+}
+.portfolio_title{
+    margin-top: 2vh;
+    height: 8vh;
+    font-size: 6vh;
+    width: fit-content;
+    border-bottom: 0.5vh yellow solid;
+}
+.portfolio_desc{
+    height: 10vh;
+    width: 95%;
+    font-size: 3vh;
+    padding-top: 1.5vh;
+}
+.portfolio_photo{
+    height: 68vh;
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.port_photo_images{
+    height: 32vh;
+    width: 26%;
+}
+.ppt_img{
+    height: 28vh;
+}
+.ppt_text{
+    height: 4vh;
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+    background-color: white;
+}
+
+.our_team{
+    height: 90vh;
+    width: 100%;
+    padding-top: 10vh;
+}
+.team_title{
+    margin-top: 2vh;
+    height: 8vh;
+    font-size: 6vh;
+    width: fit-content;
+    margin-left: 10%;
+    border-bottom: 0.5vh yellow solid;
+}
+.team_desc{
+    height: 15.1vh;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 3vh;
+    padding-top: 1.5vh;
+}
+.team_photo{
+    height: 53vh;
+    padding: 2vh 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.team_images{
+    height: 53vh;
+    width: 20%;
+}
+.team_img{
+    width: 100%;
+    height: 53vh;
+}
+.ppt_img{
+    width: 100%;
+}
+.team_photo:hover > :not(:hover)
+{
+    animation: team_ani_hover 0.5s ease-in-out forwards;
+}
+@keyframes team_ani_hover {
+    to{
+        filter: grayscale(1);
+    }
+}
+
+.team_img1{
+    background-image: url("photos/team_1.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.team_img2{
+    background-image: url("photos/team_2.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.team_img3{
+    background-image: url("photos/team_3.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.team_img4{
+    background-image: url("photos/team_4.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.team_img5{
+    background-image: url("photos/team_5.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.contact_us{
+    height: 90vh;
+    padding-top: 10vh;
+}
+.contact_title{
+    margin-top: 2vh;
+    height: 8vh;
+    font-size: 6vh;
+    width: fit-content;
+    margin-left: 10%;
+    border-bottom: 0.5vh yellow solid;
+}
+.contact_desc{
+    height: 12vh;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 3vh;
+    padding-top: 1.5vh;
+}
+.contact_info{
+    height: 32vh;
+    padding-bottom: 1.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact{
+    height: 23vh;
+    padding: 2%;
+    width: 23%;
+    font-size: 3vh;
+    color: white;
+    background-color: #135bc9;;
+}
+.contact_ec{
+    font-size: 4vh;
+    padding-bottom: 4vh;
+}
+.copy_icon{
+    height: 5vh;
+    width: 11%;
+    background: none;
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-left: 85%;
+    border: 0px white solid;
+    border-radius: 50%;
+    padding: 2%;
+    background-color: white;
+    border: 1px white solid;
+}
+.footer{
+    height: 32.5vh;
+    background-color: gray;
+    display: flex;
+    color: white;
+}
+.footer_Sec1{
+    height: fit-content;
+    width: 25%;
+    padding: 2.5%;
+    align-self: center;
+}
+.link_title{
+    height: 4.5vh;
+    font-size: 3.2vh;
+    color: white;
+    border-bottom: 2px white solid;
+}
+.footer_op{
+    font-size: 2.8vh;
+}
+.footer_op:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer_Sec2{
+    width: 11%;
+    padding: 0.5% 0%;
+}
+.footer_op_main{
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer_op:hover{
+    color: chartreuse;
+}   
+.footer_Sec3{
+    width: 25%;
+    padding: 0.5% 2.5%;
+}
+.footer_Sec4{
+    width: 24%;
+    padding: 0.5% 2.5%;
+}
+.sec3_title{
+    height: 4.5vh;
+    width: fit-content;
+    font-size: 3.5vh;
+    color: white;
+    border-bottom: 2px white solid;
+}
+.footer_Sec3_main{
+    height: 26vh;
+    display: flex;
+    font-size: 2.7vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact_footer_1{
+    height: 6vh;
+    padding-top: 1vh;
+    width: 100%;
+    display: flex;
+}
+.contact_footer_2{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+}
+.contact_footer_3{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+}
+.c_f_img{
+    width: 10%;
+    height: 5vh;
+}
+.c_f_desc{
+    width: 88%;
+    padding-left: 2%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.gallary{
+    height: 25vh;
+    padding: 0.5vh 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.g_images{
+    width: 30%;
+    height: 11.5vh;
+    background-color: pink;
+}
+
+.popup_click{
+    display: unset;
+}
+.for_mobile_title{
+    height: 5vh;
+    width: 90%;
+    padding: 2.5%;
+    font-size: 4vh;
+    display: none;
+    color: #135bc9;
+}
+.team_mem{
+    height: 11vh;
+    width: 100%;
+    text-align: center;
+    color: #135bc9;
+    margin-top: 42vh;
+    display: none; 
+    background-color: yellow;
+}
+.team_img:hover .team_mem{
+    display: block;
+}
+.team_name{
+    font-size: 4vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+.team_work{
+    font-size: 3.5vh;
+}
+.part1_desc_2{
+    padding-top: 3vh;
+}
+
+
+
+@media screen and (max-width: 1100px)
+{
+    .NavBar{
+        height: 6vh;
+        width: 95%;
+        padding: 1vh 2.5%;
+        font-size: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        color: white;
+        background-color: #135bc9;
+        backface-visibility: hidden;
+    }
+    .navbar_scroll{
+        background-color: gray;
+        opacity: 0.9;
+        color: white;
+    }
+    .active{
+        color: aqua;
+    }
+    .navbar_logo{
+        width: 75%;
+        height: 5vh;
+        cursor: pointer;
+    }
+    .navbar_menu{
+        width: 0%;
+        font-size: 3vh;
+        display: none;
+    }
+    .menu_logo{
+        display: unset;
+        
+    }
+    .home_page{
+        padding-top: 8vh;
+        height: fit-content;
+        width: 100%;
+    }
+    .part1
+    {
+        height: 43vh;
+        padding-top: 0vh;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .part1_title{
+        width: 70%;
+        font-size: 4.5vh;
+        margin-bottom: 0vh;
+        font-weight: bolder;
+        color: #135bc9;
+        text-align: center;
+    }
+    .part1_desc{
+        width: 85%;
+        font-size: 2.35vh;
+        color: #135bc9;
+        text-align: justify;
+        padding: 0 15%;
+    }
+
+    .part2
+    {
+        height: 45vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .services_name {
+        width: 46.5%;
+        padding: 0 1.5%;
+        color: black;
+        display: flex;
+        cursor: pointer;
+        transition: background-image 1s;
+    }
+    .service_title{
+        font-size: 1.25vh;
+    }
+    .service_desc {
+        height: 0vh;
+        display: none;
+        font-size: 1.2vh;
+    }
+    
+    .services_name:hover {
+        background-image: none;
+    }
+    
+    .services_name:hover .service_desc {
+        display: unset;
+        opacity: 0;
+        animation: service_hover 1s forwards ease-in;
+    }
+    @keyframes service_hover {
+        to{
+            opacity: 1;
+            height: auto;
+        }
+    }
+    .service1{
+        background-image: url('photos/photo1.png');
+        background-size: cover;    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .service2{
+        background-image: url('photos/photo2.png');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .service3{
+        background-image: url('photos/photo3.png');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .service4{
+        background-image: url('photos/photo4.png');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .about_us{
+        padding-top: 8vh;
+    }
+    .about_us_title{
+        height: 7vh;
+        font-size: 4vh;
+        font-weight: bold;
+        text-align: center;
+    }
+    .about_us_desc{
+        width: 90%;
+        padding: 0 5%;
+        height: 32vh;
+        padding-top: 3vh;
+        margin-bottom: 1vh;
+        font-size: 2.5vh;
+        text-align: left;
+        overflow: hidden;
+    }
+    .about_us_whyus{
+        height: 53vh;
+        width: 90%;
+        padding: 0 5%;
+        display: flex;  
+        flex-direction: row;
+    }
+    .whyus_sec2_part1_tohide{
+        
+        display: unset;
+        font-size: 3vh;
+        color: #135bc9;
+
+    }
+    .whyus_sec2{
+        display: none;
+    }
+    .whyus_sec1{
+        width: 100%;
+        height: 50vh;
+    }
+    .whyus_achi{
+        height: 20.5%;
+        padding: 1% 0%;
+        margin-bottom: 1%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .whyus_sec1_part1{
+        width: 23%;
+        padding: 0 1%;
+        margin-right: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whyus_sec1_part1 img{
+        height: 82%;
+        width: 100%;
+        background-color: yellow;
+    }
+    .whyus_sec1_part2{
+        width: 80%;
+        margin-top: 1vh;
+    }
+    .whyus_sec1_part2 h3{
+        margin: 0;
+        font-size: 2.2vh;
+    }
+    .whyus_sec1_part2 p{
+        margin-top: 0vh;
+        font-size: 2vh;
+    }
+    
+    .our_works{
+        padding-top: 6vh;
+        height: auto;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .portfolio_title{
+        margin-top: 2vh;
+        height: 5.5vh;
+        font-size: 4.5vh;
+        width: fit-content;
+        border-bottom: 0.5vh yellow solid;
+    }
+    .portfolio_desc{
+        height: 20vh;
+        width: 100%;
+        font-size: 2.5vh;
+        padding-top: 1.5vh;
+    }
+    .portfolio_photo{
+        height: fit-content;
+        width: 100%;
+        padding: 0;
+        margin-top: 1vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .port_photo_images{
+        height: 27vh;
+        width: 98%;
+    }
+    .ppt_img{
+        height: 22vh;
+    }
+    .ppt_text{
+        height: 4vh;
+        color: black;
+        font-size: 2vh;
+        text-align: center;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .our_team{
+        height: auto;
+        width: 100%;
+        padding-top: 6vh;
+    }
+    .team_title{
+        margin-top: 2vh;
+        font-size: 4.5vh;
+        width: fit-content;
+        margin-left: 5%;
+        border-bottom: 0.5vh yellow solid;
+        height: 5.5vh;
+    }
+    .team_desc{
+        height: 24vh;
+        width: 90%;
+        margin: 0 5%;
+        font-size: 2.5vh;
+        padding-top: 1.5vh;
+    }
+    .team_photo{
+        height: auto;
+        padding: 7vh 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .team_img{
+        width: 100%;
+        height: 49vh;
+    }
+    .ppt_img{
+        width: 100%;
+    }
+    .team_img1{
+        background-image: url("photos/team_1.png");
+        background-size: cover;
+    }
+    .team_img2{
+        background-image: url("photos/team_2.png");
+        background-size: cover;
+    }
+    .team_img3{
+        background-image: url("photos/team_3.png");
+        background-size: cover;
+    }
+    .team_img4{
+        background-image: url("photos/team_4.png");
+        background-size: cover;
+    }
+    .team_img5{
+        background-image: url("photos/team_5.png");
+        background-size: cover;
+    }
+    
+    .contact_us{
+        height: auto;
+        padding-top: 6vh;
+    }
+    .contact_title{
+        margin-top: 2vh;
+        height: 6vh;
+        font-size: 4.5vh;
+        width: fit-content;
+        margin-left: 5%;
+        border-bottom: 0.5vh yellow solid;
+    }
+    .contact_desc{
+        height: 22vh;
+        width: 90%;
+        margin: 0 5%;
+        font-size: 2.5vh;
+        padding-top: 1.5vh;
+    }
+    .contact_info{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1.5vh;
+    }
+    .contact{
+        height: 15vh;
+        padding: 2%;
+        width: 85%;
+        margin-bottom: 1vh;
+        font-size: 2.5vh;
+        color: white;
+        background-color: #135bc9;;
+    }
+    .contact_ec{
+        font-size: 2.5vh;
+        padding-bottom: 1vh;
+    }
+    .copy_icon{
+        height: 5vh;
+        width: 11%;
+        background: none;
+        cursor: pointer;
+        margin-top: 1vh;
+        margin-left: 85%;
+        border: 0px white solid;
+        border-radius: 50%;
+        padding: 2%;
+        background-color: white;
+        border: 1px white solid;
+    }
+    .footer{
+        height: 44vh;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .footer_Sec1{
+        height: fit-content;
+        width: 95%;
+        padding: 0 2.5%;
+        padding: 2.5%;
+        align-self: center;
+    }
+    .link_title{
+        height: 0vh;
+        font-size: 0vh;
+        color: white;
+        border-bottom: 2px white solid;
+    }
+    .footer_op{
+        font-size: 2.5vh;
+    }
+    .footer_op:hover{
+        color: white;
+        cursor: pointer;
+    }
+    .footer_Sec2{
+        display: none;
+        width: 11%;
+        padding: 0% 0%;
+    }
+    .footer_op_main{
+        height: 22vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .footer_op:hover{
+        color: chartreuse;
+    }   
+    .footer_Sec3{
+        width: 95%;
+        padding: 0 2.5%;
+    }
+    .footer_Sec4{
+        width: 95%;
+        padding: 0% 2.5%;
+    }
+    .sec3_title{
+        height: 3.5vh;
+        width: fit-content;
+        font-size: 2.5vh;
+        color: white;
+        border-bottom: 2px white solid;
+    }
+    .footer_Sec3_main{
+        height: fit-content;
+        display: flex;
+        font-size: 2.5vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contact_footer_1{
+        height: 6vh;
+        padding-top: 1vh;
+        width: 100%;
+        font-size: 2vh; 
+        display: flex;
+    }
+    .contact_footer_2{
+        display: none;
+    }
+    .contact_footer_3{
+        display: none;
+    }
+    .c_f_img{
+        width: 10%;
+        height: 4vh;
+    }
+    .c_f_desc{
+        width: 88%;
+        padding-left: 2%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .gallary{
+        height: 21vh;
+        padding: 0.5vh 0%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .g_images{
+        width: 30%;
+        height: 10vh;
+        background-color: pink;
+    }
+   
+    .popup_click{
+        display: unset;
+    }
+    
+
+}

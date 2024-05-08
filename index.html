@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script>
+    <title>Aaryansh</title>
+</head>
+<body>
+    <div class="NavBar" id="NavBar">
+        <div class="navbar_logo" onclick="home()">
+            <img src="photos/company_logo.png" height="100%" width="100%"/>
+        </div>
+        <div class="navbar_menu"> 
+            <div class="menu_op" onclick="Home()">HOME</div>   
+            <div class="menu_op" onclick="About()">ABOUT US</div>    
+            <div class="menu_op" onclick="Works()">PORTFOLIO</div>    
+            <div class="menu_op" onclick="Team()">OUR TEAM</div>    
+            <div class="menu_op" onclick="Contact()">CONTACT US</div>    
+        </div>
+        <div class="menu_logo" onclick="menu_popup()">
+            <img src="photos/menu.png" height="80%" width="80%"/>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="pop_me_op">
+            <div class="menu_op" onclick="Home()" data-section="home_page">HOME</div>   
+            <div class="me_op" onclick="About()">ABOUT US</div>    
+            <div class="me_op" onclick="Works()">PORTFOLIO</div>    
+            <div class="me_op" onclick="Team()">OUR TEAM</div>    
+            <div class="me_op" onclick="Contact()">CONTACT US</div>  
+        </div>
+    </div>
+
+    <section class="home_page" id="home_page">
+        <div class="part1">
+            <div class="part1_title">Listen better, Plan better, Build better.</div>
+            <div class="part1_desc">We apply these core values to every project, ensuring seamless execution, innovative design solutions, and quality craftsmanship that exceeds expectations.<div class="part1_desc_2">At Aaryansh Construction, we provide the services like project management, preconstruction services, architecture design, and house building.</div></div>
+        </div>
+        <div class="for_mobile_title">
+            Our Services
+        </div>
+        <div class="part2">
+            <div class="services_name service1">
+                <div class="service_title"><h3>PROJECT MANAGEMENT</h3></div>
+                <div class="service_desc">Our expert team ensures seamless execution, from planning to delivery, maximizing efficiency and minimizing risks.Our collaborative approach ensures effective communication and timely decision-making, keeping your project on track and within budget.</div>
+            </div>
+            <div class="services_name service2">
+                <div class="service_title"><h3>PRECONSTRUCTION SERVICES</h3></div>
+                <div class="service_desc">We offer comprehensive preconstruction services, including budgeting, scheduling, and value engineering, to lay a solid foundation for your project's success.Leveraging industry expertise, we streamline the preconstruction phase to optimize resources and enhance project efficiency.</div>
+                
+            </div>
+            <div class="services_name service3">
+                <div class="service_title"><h4>ARCHITECTURE DESIGN</h4></div>
+                <div class="service_desc">Our innovative design solutions blend functionality with aesthetics, creating spaces that inspire and endure.From concept to construction, our design process prioritizes sustainability, functionality, and aesthetics, creating timeless structures that enrich the built environment.</div>
+            </div>
+            <div class="services_name service4">
+                <div class="service_title"><h4>HOUSE BUILDING</h4></div>
+                <div class="service_desc">We transform your vision into reality, crafting homes that reflect your style and exceed your expectations.Combining craftsmanship with the latest technology, we deliver homes tailored to your lifestyle, where every detail reflects our commitment to quality and excellence.</div>
+            </div>
+        </div>
+    </section>
+    <section class="about_us" id="about_us" style="margin-top: 5vh;">
+        <div class="about_us_title">Welcome to Aaryansh Construction</div>
+        <div class="about_us_desc">
+            Your Trusted Partner in Building Dreams. Established with a vision to redefine excellence in construction, we bring together innovation, quality, and dedication.<br/>
+            we pride ourselves on our commitment to craftsmanship and customer satisfaction. With years of experience, we have earned a reputation for delivering projects on time and within budget. <br/>
+            Our team of skilled professionals is dedicated to exceeding expectations at every stage of the construction process. From concept to completion, we ensure attention to detail and unwavering quality. <br/>
+        </div>
+        <div class="about_us_whyus">
+            <div class="whyus_sec1">
+                <div class="whyus_sec2_part1_tohide">
+                    WHY CHOOSE US ?
+                </div>
+                <div class="whyus_achi">
+                    <div class="whyus_sec1_part1"> <img src="photos/icons8-construction-50.png"/> </div>
+                    <div class="whyus_sec1_part2">
+                        <h3>Start Point For Your Success</h3>
+                        <p>Transform your aspirations into achievements with our comprehensive solutions.</p>
+                    </div>
+                </div>
+                <div class="whyus_achi">
+                    <div class="whyus_sec1_part1"> <img src="photos/icons8-crane-50.png"/> </div>
+                    <div class="whyus_sec1_part2">
+                        <h3>25000 Stratified Clients</h3>
+                        <p>Join our vast community of satisfied clients and experience unparalleled service.</p>
+                    </div>
+                </div>
+                <div class="whyus_achi">
+                    <div class="whyus_sec1_part1"> <img src="photos/icons8-drill-50.png"/> </div>
+                    <div class="whyus_sec1_part2">
+                        <h3>Expert Support 24/7</h3>
+                        <p>Our team of experts is available round-the-clock to assist you in every step of your journey.</p>
+                    </div>
+                </div>
+                <div class="whyus_achi">
+                    <div class="whyus_sec1_part1"> <img src="photos/icons8-cart-50.png"/> </div>
+                    <div class="whyus_sec1_part2">
+                        <h3>25+ Unique Demo Layout</h3>
+                        <p>Explore our diverse range of layouts designed to cater to your unique needs and preferences.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="whyus_sec2">
+                <div class="whyus_sec2_part1">
+                    WHY CHOOSE US ?
+                </div>
+                <div class="whyus_sec2_part2">
+                    <img src="photos/why_us.png" height="100%" width="90%"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_works" id="our_works">
+        <div class="portfolio_title">
+            OUR PROTFOLIO
+        </div>
+        <div class="portfolio_desc">
+            Explore our portfolio of construction projects, where each image tells a story of craftsmanship, dedication, and quality. From towering structures to intricate details, our work speaks volumes about our commitment to excellence in every endeavor.
+        </div>
+        <div class="portfolio_photo">
+            <div class="port_photo_images">
+                <div class="ppt_img"> <img src="photos/PORT1.png" height="100%" width="100%" /></div>
+                <div class="ppt_text">JAPAN COFFEE PUB</div>
+            </div>
+            <div class="port_photo_images">
+                <div class="ppt_img"> <img src="photos/PORT2.png" height="100%" width="100%" /></div>
+                <div class="ppt_text">WORKING CAPITOL</div>
+            </div>
+            <div class="port_photo_images">
+                <div class="ppt_img"> <img src="photos/PORT3.png" height="100%" width="100%" /></div>
+                <div class="ppt_text">INSIDE RENOVATION</div>
+            </div>
+            <div class="port_photo_images">
+                <div class="ppt_img"> <img src="photos/PORT4.png" height="100%" width="100%" /></div>
+                <div class="ppt_text">HOTEL RENOVATION</div>
+            </div>
+            <div class="port_photo_images">
+                <div class="ppt_img"> <img src="photos/PORT5.png" height="100%" width="100%" /></div>
+                <div class="ppt_text">BEAUTIFUL HOUSE</div>
+            </div>
+            <div class="port_photo_images">
+                <div class="ppt_img"> <img src="photos/PORT6.png" height="100%" width="100%" /></div>
+                <div class="ppt_text">MICKY HOUSE</div>
+            </div>
+        </div>
+    </section>
+    <section class="our_team" id="our_team">
+        <div class="team_title">
+            MEET OUR TEAM
+        </div>
+        <div class="team_desc">
+            Get acquainted with the talented individuals who drive our vision forward, each bringing unique expertise and passion to our projects.<br/>Meet the dedicated professionals behind our success, united by a commitment to excellence and a shared passion for creating exceptional experiences.
+        </div>
+        <div class="team_photo">
+
+                <div class="team_img1 team_img">
+                    <div class="team_mem">
+                        <div class="team_name">Peter Patterson</div>
+                        <div class="team_work">Architect</div>
+                    </div> 
+                </div>
+                <div class="team_img2 team_img">
+                    <div class="team_mem">
+                        <div class="team_name">Harold Matthews</div>
+                        <div class="team_work">Project Manager</div>
+                    </div>    
+                </div>
+                <div class="team_img3 team_img">
+                    <div class="team_mem">
+                        <div class="team_name">Luna Martinez</div>
+                        <div class="team_work">Construction Manager</div>
+                    </div>
+                </div>
+                <div class="team_img4 team_img"> 
+                    <div class="team_mem">
+                        <div class="team_name">Ricardo Murphy</div>
+                        <div class="team_work">Construction Superintendent</div>
+                    </div>
+                </div>
+                <div class="team_img5 team_img"> 
+                    <div class="team_mem">
+                        <div class="team_name">Johnny Evans</div>
+                        <div class="team_work">General contractor</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact_us" id="contact_us">
+        <div class="contact_title">
+            CONTACT US
+        </div>
+        <div class="contact_desc">
+            Feel free to get in touch with us today to explore how we can assist you with your project requirements.<br/><br/>
+             Whether you have questions, need guidance, or want to discuss a potential collaboration, we're here to help. 
+        </div>
+        <div class="contact_info">
+            <div class="contact">
+                <div class="contact_ec"> Reach out via email at </div>
+                <a href="#" onclick="openGmailCompose()" style="color: white;">aaryanshconstruction2000@gmail.com</a>
+                <div class="copy_icon"><img src="photos/copy.png" height="100%" width="100%" onclick="copyToClipboard_email()"/> </div>    
+            </div>
+            <div class="contact">
+                <div class="contact_ec"> Give us a call at </div>
+                +91 9662966215
+                <div class="copy_icon"><img src="photos/copy.png" height="100%" width="100%" onclick="copyToClipboard_email()"/></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_Sec1"><img src="photos/company_logo.png" height="100%" width="100%"></div>
+            <div class="footer_Sec2">
+                <div class="link_title">USEFUL LINKS</div>
+                <div class="footer_op_main">
+                    <div class="footer_op" onclick="Home()">HOME</div>   
+                    <div class="footer_op" onclick="About()">ABOUT US</div>    
+                    <div class="footer_op" onclick="Works()">PORTFOLIO</div>    
+                    <div class="footer_op" onclick="Team()">OUR TEAM</div>    
+                    <div class="footer_op" onclick="Contact()">CONTACT US</div>
+                </div>
+            </div>
+            <div class="footer_Sec3">
+                <div class="sec3_title">CONTACT INFO</div>
+                <div class="footer_Sec3_main">
+                    <div class="contact_footer_1"><div class="c_f_img"><img src="photos/location.png" height="100%" width="100%"/></div><div class="c_f_desc">G/F 24 Dev Castle,B/H topaz hotel,Jaymala char rasta,Isanpur,Ahmedabad,Gujarat,India</div> </div>
+                    <div class="contact_footer_2"><div class="c_f_img"><img src="photos/phone.png" height="100%" width="100%"/></div><div class="c_f_desc">(+91) 9662966215</div></div>
+                    <div class="contact_footer_3"><div class="c_f_img"><img src="photos/mail.png" height="100%" width="100%"/></div><div class="c_f_desc">aaryanshconstruction2000@gmail.com</div></div>
+                </div>
+            </div>
+            <div class="footer_Sec4">
+                <div class="sec3_title">PHOTO GALLERY</div>
+                <div class="gallary">
+                    <div class="g_images"><img src="photos/gallary_1.png" height="100%" width="100%"></div>
+                    <div class="g_images"><img src="photos/gallary_2.png" height="100%" width="100%"></div>
+                    <div class="g_images"><img src="photos/gallary_3.png" height="100%" width="100%"></div>
+                    <div class="g_images"><img src="photos/gallary_4.png" height="100%" width="100%"></div>
+                    <div class="g_images"><img src="photos/gallary_5.png" height="100%" width="100%"></div>
+                    <div class="g_images"><img src="photos/gallary_6.png" height="100%" width="100%"></div>
+                </div>    
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
